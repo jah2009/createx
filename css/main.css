@@ -31,6 +31,9 @@ a {
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+.section__btn:hover {
+  opacity: 80%;
+}
 .section__btn2 {
   background-color: transparent;
   border-radius: 4px;
@@ -56,8 +59,7 @@ a {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-
-  min-height: 100vh;
+  min-height: 1080px;
 }
 /* Header section styles */
 .header {
@@ -94,6 +96,14 @@ a {
   font-size: 16px;
   font-weight: 700;
   color: #424451;
+}
+.section__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #1e212c;
+  text-transform: uppercase;
 }
 /* Home section styles */
 .home {
@@ -152,3 +162,39 @@ a {
   color: #1e212c;
 }
 /* Stats section ends */
+
+/* About section styles */
+.about {
+  padding: 128px 0;
+}
+.about__wrapper {
+  display: flex;
+  gap: 112px;
+  justify-content: space-between;
+}
+.about__title {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  margin: 8px 0 24px 0;
+  color: #1e212c;
+}
+.about__item {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  margin-bottom: 12px;
+}
+.about__check {
+  margin-top: 4px;
+}
+.about__text {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #1e212c;
+}
+.about__btn {
+  margin-top: 36px;
+}
+
+/* About section ends */
