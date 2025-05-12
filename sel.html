@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* class sel, id sel, element(tag) sel, universal sel */
+      /* important > inline styles > id sel > class sel > tag sel */
+      /* css specificity(o'ziga  xoslik) */
+      #heading {
+        color: red;
+        font-size: 48px;
+      }
+      .heading2 {
+        color: blue;
+        font-size: 32px;
+      }
+      h2 {
+        color: green !important;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="color: aqua" class="heading2" id="heading">salom dunyo</h2>
+  </body>
+</html>
